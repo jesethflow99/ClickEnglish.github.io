@@ -1,0 +1,182 @@
+:root {
+    --primary: #0448fcff;
+    --warning: #fafc05ff;
+    --dark: #ffffff;
+    --gray-800: #0448fcff;
+    --gray-900: #333333;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark);
+    color: #000000;
+    line-height: 1.7;
+}
+.map{
+    margin: auto;
+    width: 100%;
+}
+.logo{
+    border-radius: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Background Utilities */
+.bg-gray-800 {
+    background-color: var(--gray-800);
+}
+.bg-gray-900 {
+    background-color: var(--gray-900);
+}
+
+.text-warning{
+color: var(--warning) !important;
+}
+.btn-warning{
+    background-color: var(--warning) !important;
+    }
+
+
+/* Navbar Glass Effect */
+.navbar {
+    background: rgba(26, 26, 26, 0.8) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.842) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section with Parallax */
+.hero-section {
+    height: 100vh;
+    background: url('https://www.ihmadrid.com/wp-content/uploads/2023/07/la-mejor-forma-de-aprender-ingles-scaled.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.bg-warning{
+    background-color: var(--warning) !important;
+}
+.btn-outline-warning{
+    outline: var(--warning) !important;
+    color: var(--warning) !important;
+}
+.btn-outline-warning:hover{
+background-color: var(--warning) !important;
+color: var(--gray-900) !important;
+}
+
+/* Course Cards */
+.course-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid rgba(255, 193, 7, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.course-card img{
+    margin: 10px;
+}
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(255, 193, 7, 0.1);
+}
+.course-icon {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course-content{
+    margin: 10px;
+}
+
+/* Contact Cards */
+.contact-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.contact-card:hover {
+    border-color: var(--warning);
+    transform: translateY(-5px);
+}
+.contact-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.card-body{
+    background-color: var(--warning)
+}
+.text{
+    color: #e0e0e0;
+}
+.text2{
+    color: #000000;
+}
+.text_black{
+    color: #212121;
+}
+.text_blue{
+    color: var(--primary) !important;
+}
+.img-desc{
+    max-width: 500px;
+
+}
+
+.img2{
+    max-width: 500px;
+    margin: auto;
+}
+
+.modal-body{
+    background: linear-gradient(to top, var(--warning),var(--primary));
+    color: rgb(0, 0, 0);
+}
+.modal-header{
+    background-color: var(--warning);
+}
+.modal-footer{
+    background-color: var(--primary);
+}
+
+/* Animations */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+.floating {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 80vh;
+        background-attachment: scroll;
+    }
+    .img2{
+        max-width: 250px;
+    }
+}
