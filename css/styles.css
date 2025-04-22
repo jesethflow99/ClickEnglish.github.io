@@ -93,6 +93,7 @@ color: var(--gray-900) !important;
 }
 .course-card img{
     margin: 10px;
+
 }
 .course-card:hover {
     transform: translateY(-10px);
