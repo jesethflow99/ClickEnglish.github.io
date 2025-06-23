@@ -1,0 +1,50 @@
+[
+  {
+    "title":" Adolecentes",
+    "description":" Curso de introducción al inglés para adolescentes",
+    "duration":"3 meses",
+    "level":"Intermedio",
+    "price":150,
+    "image":"assets/img/Adolecentes.jpg"
+  },
+  {
+    "title":"Niños (7-12 años)",
+    "description":"Curso de introducción al inglés para niños de 7 a 12 años",
+    "duration":"2 meses",
+    "level":"Principiante",
+    "price":100,
+    "image":"assets/img/Adolecentes.jpg"
+  },
+  {
+    "title":"Alumnos de sexto de Primaria",
+    "description":"Curso de introducción al inglés para alumnos de sexto de Primaria",
+    "duration":"1 mes",
+    "level":"Principiante",
+    "price":80,
+    "image":"assets/img/Adolecentes.jpg"
+  },
+  {
+    "title":"Curso Sabatino",
+    "description":"Curso intensivo de inglés los sábados",
+    "duration":"1 mes",
+    "level":"Intermedio",
+    "price":120,
+    "image":"assets/img/Adolecentes.jpg"
+  },
+  {
+    "title":"Clases de Preparación para Examenes",
+    "description":"Clases de preparación para exámenes de inglés",
+    "duration":"2 meses",
+    "level":"Avanzado",
+    "price":200,
+    "image":"assets/img/Adolecentes.jpg"
+  },
+  {
+    "title":"Clases Personalizadas",
+    "description":"Clases de inglés personalizadas según las necesidades del alumno",
+    "duration":"Variable",
+    "level":"Todos los niveles",
+    "price":250,
+    "image":"assets/img/Adolecentes.jpg"
+  }
+]

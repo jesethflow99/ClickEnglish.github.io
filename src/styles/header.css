@@ -1,0 +1,31 @@
+
+.Header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+  .logo{
+    border-radius: 20px;
+  }
+  
+.navbar{
+  background: rgba(26, 26, 26, 0.8) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+.nav-link{
+   color: #fff;
+   opacity: .5;
+}
+.nav-link:hover{
+  opacity: 1;
+  color: #fff;
+}
+.active{
+  color: #fff;
+}
+
+
+}
