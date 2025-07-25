@@ -4,7 +4,7 @@ import image from '../assets/img/section2.jpg'
 
 const Section2 = () => {
   return (
-    <div className="container text-center Section2 py-5">
+    <div className="container text-center Section2 py-5" id='filosofia'>
       <div className="row align-items-center justify-content-center">
         
         <div className="col-12 col-lg-6 mb-4 mb-lg-0">
@@ -15,6 +15,7 @@ const Section2 = () => {
           <h1>
             Nuestra <b className='text-primary'>Filosofía</b>
           </h1>
+          
           <DropText />
         </div>
       </div>

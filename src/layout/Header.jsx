@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/header.css"; // Import your CSS file for styling
+import "../styles/header.css"; 
 const Header = () => {
   return (
     <div className="Header">
@@ -27,17 +27,17 @@ const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#cursos">
                   Cursos
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#filosofia">
                   Filosofía
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#contacto">
                   Contacto
                 </a>
               </li>

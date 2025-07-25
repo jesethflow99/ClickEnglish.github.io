@@ -11,12 +11,6 @@
   transition: all 1s ease-in-out;
 }
 
-.icon{
-  font-family: Century Gothic, sans-serif;
-  font-size: x-large;
-  color: white;
-
-}
 
 .background {
   position: absolute;
@@ -28,27 +22,14 @@
   position: absolute;
   right: 50%;
   bottom: 50%;
+  height: max-content;
+  
   transform: translate(50%, 50%);
   transition: all 0.6s ease-in-out;
 }
 
-.logo .logo-svg {
-  fill: white;
-  width: 30px;
-  height: 30px;
-}
 
-.icon {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-}
 
-.icon .svg {
-  fill: rgba(255, 255, 255, 0.797);
-  width: 100%;
-  transition: all 0.5s ease-in-out;
-}
 
 .box {
   position: absolute;
@@ -156,5 +137,6 @@
   transform: translate(0, 0);
   bottom: 20px;
   right: 20px;
+  opacity: 0;
 }
 }

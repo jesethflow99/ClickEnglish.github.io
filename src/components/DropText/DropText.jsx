@@ -8,22 +8,20 @@ const DropText = () => {
           class="btn btn-warning btn-lg"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#filosofia"
+          data-bs-target="#card"
           aria-expanded="false"
-          aria-controls="filosofia"
+          aria-controls="card"
         >
           <b>Valores <i class="bi bi-arrow-down-short"></i></b>
         </button>
       </p>
-      <div class="collapse" id="filosofia">
+      <div class="collapse" id="card">
         <div class="card card-body text-start overflow-auto w-100"> 
           <b>Visión: </b><br />
-          Some placeholder content for the collapse component. This panel is
-          hidden by default but revealed when the user activates the relevant
-          trigger.
+          Ser una Academia líder y competitiva en la enseñanza del idioma inglés, comprometidos con la excelencia personal, académica y la calidad en el servicio, destacando en las estrategias y programas creativos y actualizados para las mejoras continuas.
           <br />
           <b>Misión: </b><br />
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas nihil sit earum quos in quo asperiores quasi eum ad? Ipsa, harum? Dolorem illum id doloribus? Reprehenderit ex sequi natus sint?
+          Academia responsable de la enseñanza del idioma inglés, que proporciona a sus estudiantes los conocimientos lingüísticos necesarios para una mejor formación personal, académica y profesional, fomentando una ambiente seguro, tranquilo, alegre y con armonía para potenciar la consolidación de la interculturalidad.
         </div>
       </div>
     </div>

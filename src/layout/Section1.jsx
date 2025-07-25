@@ -12,7 +12,7 @@ const Section1 = () => {
   }, []); 
 
   return (
-    <div className='section1 container text-center py-5'>
+    <div className='section1 container text-center py-5' id='cursos'>
       <div className="cursos">
         <h2 className='text-center'>Nuestros <b className='text-primary m-10'>Cursos</b></h2>
         <div className="row">
@@ -25,6 +25,7 @@ const Section1 = () => {
                 level={curso.level}
                 price={curso.price}
                 image={curso.image}
+                info={curso.info}
               />
             </div>
           ))}
