@@ -3,20 +3,20 @@ import React from "react";
 const DropText = () => {
   return (
     <div>
-      <p class="d-inline-flex gap-1">
+      <p className="d-inline-flex gap-1">
         <button
-          class="btn btn-warning btn-lg"
+          className="btn btn-warning btn-lg"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#card"
           aria-expanded="false"
           aria-controls="card"
         >
-          <b>Valores <i class="bi bi-arrow-down-short"></i></b>
+          <b>Valores <i className="bi bi-arrow-down-short"></i></b>
         </button>
       </p>
-      <div class="collapse" id="card">
-        <div class="card card-body text-start overflow-auto w-100"> 
+      <div className="collapse" id="card">
+        <div className="card card-body text-start overflow-auto w-100"> 
           <b>Visión: </b><br />
           Ser una Academia líder y competitiva en la enseñanza del idioma inglés, comprometidos con la excelencia personal, académica y la calidad en el servicio, destacando en las estrategias y programas creativos y actualizados para las mejoras continuas.
           <br />
