@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="content">
         <h1>Aprende Inglés <b>Click</b></h1>
         <p>Nuestra plataforma interactiva te ayuda a dominar el inglés con recursos personalizados, foros de discusión y asistencia en tiempo real.</p>
-        <button className="btn btn-warning col-6">Comenzar ahora </button>
+        <a className="btn btn-warning col-6" href='https://jesethflow99.github.io/chatbot.github.io/' target="_blank">Prueba nuestro chatbot </a>
       </div>  
     </div>
   )
