@@ -1,6 +1,6 @@
 import React from 'react'
 import DropText from '../components/DropText/DropText'
-import image from '../assets/img/section2.jpg'
+import image from '../assets/img/imagen-intercambio.jpeg'
 
 const Section2 = () => {
   return (
