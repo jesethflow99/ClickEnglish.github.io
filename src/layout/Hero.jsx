@@ -100,7 +100,7 @@ export default function Hero() {
         </div>
       </section>
 
-      <div className="marquee border-y border-black/10 bg-brand-500 py-3 text-sm text-ink-950">
+      <div className="marquee overflow-hidden border-y border-black/10 bg-brand-500 py-3 text-sm text-ink-950">
         <div className="animate-marquee flex w-max">
           <MarqueeRow />
           <MarqueeRow hidden />
