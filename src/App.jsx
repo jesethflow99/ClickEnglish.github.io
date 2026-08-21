@@ -1,21 +1,21 @@
-import React from 'react'
 import Header from './layout/Header'
 import Hero from './layout/Hero'
-import Section1 from './layout/Section1'
-import Section2 from './layout/Section2'
-import Section3 from './layout/Section3'
+import Courses from './layout/Courses'
+import Philosophy from './layout/Philosophy'
+import Contact from './layout/Contact'
 import Footer from './layout/Footer'
-const App = () => {
+
+export default function App() {
   return (
-    <div className='app'>
-      <Header/>
-      <Hero/>
-      <Section1/>
-      <Section2/>
-      <Section3/>
-      <Footer/>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <Courses />
+        <Philosophy />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   )
 }
-
-export default App
