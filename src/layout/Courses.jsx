@@ -20,7 +20,7 @@ export default function Courses() {
           </h2>
           <p className="mt-5 leading-relaxed text-ink-700/80">
             Cursos para todas las edades y objetivos: desde los primeros juegos en inglés hasta la
-            preparación para la secundaria, la prepa y los exámenes.
+            preparación para la secundaria, la prepa, universidad y los exámenes.
           </p>
         </Reveal>
 

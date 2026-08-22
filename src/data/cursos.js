@@ -12,7 +12,7 @@ export const cursos = [
   {
     id: 'adolescentes',
     title: 'Adolescentes',
-    ages: '13–17 años',
+    ages: '12–17 años',
     level: 'Intermedio',
     duration: 'Todo el ciclo escolar',
     description:
@@ -28,7 +28,7 @@ export const cursos = [
   {
     id: 'ninos',
     title: 'Niños',
-    ages: '7–12 años',
+    ages: '6–11 años',
     level: 'Principiante',
     duration: 'Todo el ciclo escolar',
     description:
@@ -51,15 +51,15 @@ export const cursos = [
     note: 'Inscripciones a partir de abril',
     description:
       'Dile adiós a la preocupación de no saber inglés y hola a la confianza antes de entrar a Secundaria o Prepa.',
-    price: [{ label: 'Inscripción única', value: '$990' }],
+    price: [{ label: 'Inscripción única', value: '$1500' }],
     image: veranoImg,
     alt: 'Alumnos del curso intensivo de verano',
-    info: '🎓 ¡Curso Intensivo de Inglés para Secundaria o Prepa! 🎓\n\n¿Tu hij@ va a entrar a Secundaria o Prepa? ¡Este curso es para é/ella! 🚀\n👉 En solo una semana, los estudiantes:\n✅ Refrescan sus conocimientos previos 🧠\n✅ Refuerzan sus bases académicas 📘\n✅ Adquieren conocimientos clave que verán en secundaria 📚\n✅ Desarrollan habilidades esenciales como comprensión, vocabulario y conversación 🗣️\n✅ Ganan seguridad y confianza para este nuevo reto académico 💪\n🔍 Aprenden de forma dinámica y práctica temas fundamentales, como:\n📝 Construir oraciones y expresarse con claridad\n📖 Lectura y comprensión en inglés\n🎙️ Conversación para el aula y situaciones escolares\n💡 Vocabulario útil para las materias\n\n📚 Este curso los prepara no solo con contenidos, sino con la actitud y seguridad que necesitan para iniciar Secundaria o Prepa con el pie derecho. ✨🎒',
+    info: '🎓 ¡Curso Intensivo de Inglés para Secundaria o Prepa! 🎓\n\n¿Tu hij@ va a entrar a Secundaria o Prepa? ¡Este curso es para é/ella! 🚀\n👉 En solo unas semanas, los estudiantes:\n✅ Refrescan sus conocimientos previos 🧠\n✅ Refuerzan sus bases académicas 📘\n✅ Adquieren conocimientos clave que verán en secundaria 📚\n✅ Desarrollan habilidades esenciales como comprensión, vocabulario y conversación 🗣️\n✅ Ganan seguridad y confianza para este nuevo reto académico 💪\n🔍 Aprenden de forma dinámica y práctica temas fundamentales, como:\n📝 Construir oraciones y expresarse con claridad\n📖 Lectura y comprensión en inglés\n🎙️ Conversación para el aula y situaciones escolares\n💡 Vocabulario útil para las materias\n\n📚 Este curso los prepara no solo con contenidos, sino con la actitud y seguridad que necesitan para iniciar Secundaria o Prepa con el pie derecho. ✨🎒',
   },
   {
     id: 'sabatino',
     title: 'Curso Sabatino',
-    ages: '9–14 años',
+    ages: 'Kids & Teens',
     level: 'Básico – Intermedio',
     duration: 'Sábados al mes',
     description:
@@ -70,12 +70,12 @@ export const cursos = [
     ],
     image: sabatinoImg,
     alt: 'Estudiantes del curso sabatino de inglés',
-    info: '🎉 ¡Sábados llenos de inglés, diversión y aprendizaje! 🎉\n🗓️ Curso sabatino para niños y adolescentes de 9 a 14 años\n📍 En Click English Cuauhtémoc, los sábados se convierten en una experiencia educativa única, ideal para quienes quieren mejorar su inglés sin descuidar su rutina escolar.\n✨ ¿Qué aprenden con nosotros?\n\n🗣️ Speaking – Conversan con seguridad sobre temas cotidianos y actuales.\n👂 Listening – Desarrollan su oído con actividades basadas en canciones, diálogos y videos.\n📖 Reading – Leen textos breves que los ayudan a pensar en inglés.\n✍️ Writing – Escriben frases y párrafos usando vocabulario real.\n💬 Conversation – Practican inglés en situaciones reales con juegos de rol y actividades grupales.\n🧠 Spelling – Refuerzan su ortografía con dinámicas creativas y memorables.\n\n🎯 Cada sábado es una oportunidad para mejorar su nivel de inglés, hacer nuevos amigos y ganar confianza en un ambiente seguro, divertido y motivador.',
+    info: '🎉 ¡Sábados llenos de inglés, diversión y aprendizaje! 🎉\n🗓️ Curso sabatino para niños y adolescentes\n📍 En Click English Cuauhtémoc, los sábados se convierten en una experiencia educativa única, ideal para quienes quieren mejorar su inglés sin descuidar su rutina escolar.\n✨ ¿Qué aprenden con nosotros?\n\n🗣️ Speaking – Conversan con seguridad sobre temas cotidianos y actuales.\n👂 Listening – Desarrollan su oído con actividades basadas en canciones, diálogos y videos.\n📖 Reading – Leen textos breves que los ayudan a pensar en inglés.\n✍️ Writing – Escriben frases y párrafos usando vocabulario real.\n💬 Conversation – Practican inglés en situaciones reales con juegos de rol y actividades grupales.\n🧠 Spelling – Refuerzan su ortografía con dinámicas creativas y memorables.\n\n🎯 Cada sábado es una oportunidad para mejorar su nivel de inglés, hacer nuevos amigos y ganar confianza en un ambiente seguro, divertido y motivador.',
   },
   {
     id: 'examenes',
     title: 'Preparación para Exámenes',
-    ages: 'Primaria, Secundaria y Prepa',
+    ages: 'Primaria, Secundaria, Prepa y Universidad',
     level: 'Todos los niveles',
     duration: 'Clases de 90 minutos',
     description:
