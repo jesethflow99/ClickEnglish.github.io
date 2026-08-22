@@ -43,8 +43,8 @@ export const cursos = [
   },
   {
     id: 'verano',
-    title: 'Curso Intensivo de Verano 2027',
-    ages: 'Secundaria y Prepa',
+    title: 'Summer Camp 2027',
+    ages: 'Preescolar, Primaria y Secundaria',
     level: 'Curso intensivo',
     duration: '15 horas intensivas',
     badge: 'Verano 2027',
